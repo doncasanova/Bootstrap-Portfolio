@@ -2,10 +2,13 @@
     border-radius: 1rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
-   
-
+    max-width: 960px;
+    margin: 1rem auto;
+    padding: 20px !important;
 }
-
+.container{
+    max-width: 960px;
+}
 .px-2{
     padding: 3rem;
 }
@@ -29,4 +32,14 @@ body{
 
 .p{
     text-align: center;
+}
+
+.footer--center{
+    text-align: center;
+    margin: auto;
+}
+
+.center ul li{
+    text-align: right;
+    margin: auto;
 }
