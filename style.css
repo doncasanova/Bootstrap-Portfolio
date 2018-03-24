@@ -1,4 +1,5 @@
 .jumbotron{
+    position: relative;
     border-radius: 1rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -71,4 +72,18 @@ a:hover {
 
 a{
     color: black;
+}
+
+.pic_position{
+    position: relative;
+    /* float: left; */
+}.TEST{
+    position: absolute;
+   bottom: 10px;
+   left:57px;
+   margin: 0 auto;
+   text-align: center;
+   padding:10px;
+   background-color: white;
+   color: black;
 }
