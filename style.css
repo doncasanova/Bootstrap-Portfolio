@@ -6,6 +6,7 @@
     max-width: 960px;
     margin: 1rem auto;
     padding: 20px !important;
+    opacity: .9;
 }
 .container{
     max-width: 960px;
@@ -51,6 +52,10 @@ background-image: url(guitar.png);
     text-align: center;
     margin: auto;
     color: white;
+}
+
+.container---footer{
+    opacity: .7;
 }
 
 .center ul li{
