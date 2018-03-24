@@ -26,10 +26,22 @@
     border-radius: .5rem;
 }
 
+@media (min-width: 992px) {
+    .bg-success, .name{
+        background-color: rgb(36, 15, 3) !important;
+        border-radius: .5rem;
+    }
+}
+
 body{
     background-image: url(maxresdefault_yJhJfNe.jpg);
 }
 
+@media (min-width: 992px) {
+    body{ 
+background-image: url(guitar.png);
+    }
+}
 .p{
     text-align: center;
 }
@@ -43,4 +55,20 @@ body{
 .center ul li{
     text-align: right;
     margin: auto;
+}
+
+a:hover { 
+    background-color: rgb(46, 22, 70);
+    color:white;
+}
+
+@media (min-width: 992px) {
+    a:hover{ 
+        background-color: rgb(36, 15, 3);
+        color: white;
+    }
+}
+
+a{
+    color: black;
 }
