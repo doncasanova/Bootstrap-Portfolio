@@ -17,46 +17,103 @@
 
 <body>
 
-
-  <div class="container">
-    <span class="navbar mb-3 h1 float-sm-left name">Don Casanova</span>
-    <nav class=" navbar navbar-light justify-content-end">
-      <ul class="nav ">
-        <li class="nav-item">
-          <a class="nav-link active" href="index.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="protfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
-      </ul>
-    </nav>
-
-  </div>
-
-  <div class="container">
-
-    <div class="jumbotron">
-      <h1 class="display-4">About Me</h1>
-      <hr class="my-3">
-      <img class="align-self-center mr-3 float-sm-left" src="../Bootstrap-Portfolio/assets/images/profile.jpg" alt="Generic placeholder image">
-
-      <p class="lead">Hello thanks for stopping by to take a look at my life. I was born in Blackfoot Idaho February 9th 1962 (don't remember
-        a thing about it). Our family moved to Minnesota in 1964 and I've been here ever since. I am married with two kids
-        boy and a girl. I have owned many business and love to start new one. I like to grow stuff and make music. I have
-        a band called Dakota Clover which I'm sure you have heard of and if not you need to.</p>
+  <div class="slideOutAbout">
+    <div class="container">
+      <span class="navbar mb-3 h1 float-sm-left name">Don Casanova</span>
+      <nav class=" navbar navbar-light justify-content-end">
+        <ul class="nav ">
+          <li class="nav-item">
+            <a class="nav-link showPortfol">Portfolio</a>
+          </li>
+        </ul>
+      </nav>
 
     </div>
 
+    <div class="container ">
+
+      <div class="jumbotron ">
+        <div class="row">
+          <div class="col">
+            <h1 class="display-4 Portfol">About Me</h1>
+          </div>
+        </div>
+        <hr class="my-3">
+        <img class="align-self-center mr-3 float-sm-left" src="../Bootstrap-Portfolio/assets/images/profile.jpg" alt="Generic placeholder image">
+
+        <p>Hello thanks for stopping by to take a look at my life. I was born in Blackfoot Idaho February 9th 1962 (don't remember
+          a thing about it). Our family moved to Minnesota in 1964 and I've been here ever since. I am married with two kids
+          boy and a girl. I have owned many business and love to start new one. I like to grow stuff and make music. I have
+          a band called Dakota Clover which I'm sure you have heard of and if not you need to.</p>
+
+      </div>
+
+    </div>
+    <div class="container">
+      <nav class="navbar footer--center ">
+          <a href="https://www.linkedin.com/in/don-casanova-b2089867/"><img src="./assets/images/linkin.png" alt="linkedin_logo"></a>
+        <span class=" p-4 footer--center">copyright &copy </span>
+      </nav>
+    </div>
   </div>
 
-  <div class="container">
-    <nav class="navbar navbar-light bg-success">
-      <span class="mb-1 p-4 footer--center">copyright &copy </span>
+  <!-- profile slides in from right when called -->
+  <div class="container slideinAbout">
+    <button type="button" class="close fade closeSlider" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+    <div class="jumbotron">
+      <div class="row">
+        <div class="col">
+          <h1 class="display-4 Portfol">Portfolio</h1>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class=" m-1">
+            <a href="https://doncasanova.github.io/Hang-Man/">
+              <img src="../Bootstrap-Portfolio/assets/images/hangman1.jpg" class="img-fluid" alt="Responsive image" style="width:200px;height:200px">
+              <p CLASS=picText>hangman</p>
+            </a>
+          </div>
+          <div class=" m-1">
+            <a href="https://doncasanova.github.io/week-4-game/">
+              <img src="../Bootstrap-Portfolio/assets/images/Earth-Wallpapers-46.jpg" class="img-fluid" alt="Responsive image" style="width:200px;height:200px">
+              <p CLASS=picText>crystals</p>
+            </a>
+          </div>
+          <div class=" m-1">
+            <a href="https://doncasanova.github.io/Parks-Recreation-2.0/">
+              <img src="https://media.giphy.com/media/B3E8bej5kwK3K/giphy.gif" class="img-fluid" alt="Responsive image" style="width:200px;height:200px">
+              <p CLASS=picText>Parks-Recreation-2.0</p>
+            </a>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <div class=" m-1">
+            <a href="https://doncasanova.github.io/TriviaGame/">
+              <img src="../Bootstrap-Portfolio/assets/images/trivia.png" class="img-fluid" alt="Responsive image" style="width:200px;height:200px">
+              <p CLASS=picText>Trivia Game</p>
+            </a>
+          </div>
+          <div class=" m-1">
+            <a href="https://doncasanova.github.io/anytimeTrain/">
+              <img src="../Bootstrap-Portfolio/assets/images/beautiful_train_HD-photo.jpg" class="img-fluid " alt="Responsive image" style="width:200px;height:200px">
+              <p CLASS=picText>Any Time Train</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+
+  <!-- end of profile -->
+
+
+
+
+  <script src="assets/js/app.js"></script>
 </body>
 
 </html>

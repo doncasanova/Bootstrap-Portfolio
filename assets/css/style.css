@@ -1,63 +1,60 @@
 .jumbotron{
     position: relative;
-    border-radius: 1rem;
+    border-radius: 2rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
     max-width: 960px;
     margin: 1rem auto;
     padding: 20px !important;
-    /* opacity: .9; */
+    background-color: rgb(36, 15, 3);
 }
 .container{
     max-width: 960px;
 }
-.px-2{
-    padding: 3rem;
-}
 /* background-color: rgba(18, 5, 94, 0.9); */
     /* opacity: .9; */
 .name{
-    color: whitesmoke;
-    padding-bottom: 0rem;
+    color: tan;
+    font-style: italic;
+
 }
 .mb-3, .my-3 {
     margin-bottom: 3rem !important;
 }
 
-.bg-success, .name{
-    background-color: rgb(46, 22, 70) !important;
-    border-radius: .5rem;
-}
-
-@media (min-width: 992px) {
     .bg-success, .name{
         background-color: rgb(36, 15, 3) !important;
         border-radius: .5rem;
     }
-}
-
-body{
-    background-image: url(maxresdefault_yJhJfNe.jpg);
-}
-
-@media (min-width: 992px) {
+/* @media (min-width: 992px) { */
     body{ 
-background-image: url(../images/guitar.png);
+        background-image: url(../images/guitar.png);
+        height: 100%; 
+    
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
     }
-}
-.p{
+/* } */
+p{
     text-align: center;
+    color: tan;
+    font-style: italic;
+    font-size: large;
 }
 
 .footer--center{
     text-align: center;
     margin: auto;
-    color: white;
+    color:  rgb(36, 15, 3);
+    background-color: tan;
 }
 
-.container---footer{
+/* .container---footer{
     opacity: .7;
-}
+} */
 
 .center ul li{
     text-align: right;
@@ -65,37 +62,84 @@ background-image: url(../images/guitar.png);
 }
 
 a:hover { 
-    background-color: rgb(46, 22, 70);
-    color:white;
+    background-color:  rgb(36, 15, 3);
+    color: tan;
 }
-
-@media (min-width: 992px) {
-    a:hover{ 
-        background-color: rgb(36, 15, 3);
-        color: white;
-    }
-}
-
 a{
-    color: black;
+    background-color: tan;
+    color: rgb(36, 15, 3);
 }
 
-.pic_position{
+/* name of application */
+:hover.picText{
     position: relative;
-    /* float: left; */
-}.TEST{
-    position: absolute;
-   bottom: 10px;
-   left:57px;
-   margin: 0 auto;
-   text-align: center;
-   padding:10px;
-   background-color: white;
-   color: black;
+    bottom: 10px;
+     margin: 0 auto;
+    text-align: center;
+    padding:10px;
+    color: tan;
+    font-style: italic;
+    opacity: 1.0;
+}
+.picText{
+    position: relative;
+    bottom: 10px;
+    margin: 0 auto;
+    text-align: center;
+    padding:10px;
+    color: tan;
+    font-style: italic;
+    opacity: 0;
+}
+.Portfol{
+    color: tan;
+    font-style: italic;
+    text-align: center;
 }
 
-.profileSize {
-    height: 50px;
-    width: 50%;
-    /* background-color: powderblue; */
+.slideOutAbout.active{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    overflow: auto;
+    left: 100%;
+    width: 100%;
+    background-color: white;
+    transition: left 0.5s ease-in;
 }
+.slideinAbout.active{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    overflow: auto;
+    left: 100%;
+    width: 100%;
+    background-color: white;
+    transition: left 0.5s ease-in;
+}
+.slideinAbout{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    overflow: auto;
+    left: 100%;
+    width: 100%;
+    background-color: white;
+    transition: left 0.5s ease-in;
+}
+/* 300 */
+.slideinAbout.active {
+    left: 0%;
+    width: 100%;
+    margin: auto;
+    transition: left 1.0s ease-in;
+}
+/* end of 300 */
+@media (min-width: 960px) {
+.slideinAbout.active {
+    left: 15%;
+    margin: auto;
+    transition: left 1.0s ease-in;
+}
+}
+/* end of 960 */
