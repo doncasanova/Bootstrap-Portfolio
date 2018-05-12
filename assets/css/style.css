@@ -1,7 +1,7 @@
 .jumbotron{
     position: relative;
     border-radius: 2rem;
-    margin-top: 1rem;
+    margin-top: 50px;
     margin-bottom: 1rem;
     max-width: 960px;
     margin: 1rem auto;
@@ -28,7 +28,7 @@
     }
 /* @media (min-width: 992px) { */
     body{ 
-        background-image: url(../images/guitar.png);
+        background-image: url(https://tse4.mm.bing.net/th?id=OIP.o0_G4YyXCkdm7rT771zmWAHaE1&pid=15.1&P=0&w=243&h=159);
         height: 100%; 
     
         /* Center and scale the image nicely */
@@ -49,7 +49,8 @@ p{
     text-align: center;
     margin: auto;
     color:  rgb(36, 15, 3);
-    background-color: tan;
+    border-radius: 20px;
+    
 }
 
 /* .container---footer{
@@ -61,37 +62,12 @@ p{
     margin: auto;
 }
 
-a:hover { 
-    background-color:  rgb(36, 15, 3);
-    color: tan;
-}
-a{
-    background-color: tan;
+.pButton:hover { 
+    background-color:  tan;
     color: rgb(36, 15, 3);
 }
 
-/* name of application */
-:hover.picText{
-    position: relative;
-    bottom: 10px;
-     margin: 0 auto;
-    text-align: center;
-    padding:10px;
-    color: tan;
-    font-style: italic;
-    opacity: 1.0;
-}
-.picText{
-    position: relative;
-    bottom: 10px;
-    margin: 0 auto;
-    text-align: center;
-    padding:10px;
-    color: tan;
-    font-style: italic;
-    opacity: 0;
-}
-.Portfol{
+.Portfol {
     color: tan;
     font-style: italic;
     text-align: center;
@@ -143,3 +119,49 @@ a{
 }
 }
 /* end of 960 */
+
+
+@media (max-width: 400px){ 
+.socialButton{
+    max-width: 32px;
+    max-height: 32px;
+}
+}
+@media (max-width: 600px){ 
+    .socialButton{
+        height: 64px;
+        width: 64px;
+    }
+    }
+
+.socialButton{
+    height: 64px;
+    width: 64px;
+}
+
+@media (max-width: 400px){ 
+.pButton{
+    background-color: rgb(36, 15, 3);
+    color: tan;
+    font-size: small;
+    max-height: 32px;
+    max-width: 32px;
+    border-radius: 10px;
+}
+}
+@media (max-width: 600px){ 
+.pButton{
+    background-color: rgb(36, 15, 3);
+    color: tan;
+    height: 64px;
+    width: 64px;
+    border-radius: 10px;
+}
+}
+.pButton{
+    background-color: rgb(36, 15, 3);
+    color: tan;
+    height: 64px;
+    width: 64px;
+    border-radius: 10px;
+}
