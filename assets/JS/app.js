@@ -5,6 +5,7 @@ $("body .showPortfol").on("click", function () {
   //brings list div in
   $('.slideOutAbout').addClass('active');
 })
+
 $("body .closeSlider").on("click", function () {
   console.log("slide in")
 
