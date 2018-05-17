@@ -165,3 +165,8 @@ p{
     width: 64px;
     border-radius: 10px;
 }
+.cursor {
+
+    cursor: pointer;
+
+}
